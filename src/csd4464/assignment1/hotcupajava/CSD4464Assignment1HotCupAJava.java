@@ -19,9 +19,9 @@ public class CSD4464Assignment1HotCupAJava {
         
     }
     
-    public static String stringPower(String s, int num ){
+    public static String stringPower(String s, int num ) {
            String str = "";
            return str;         
-        }
+       }
     
 }
