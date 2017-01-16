@@ -64,4 +64,27 @@ public class CSD4464Assignment1HotCupAJavaTest {
         //fail("stringPower error: Expected empty string, result: " + result);
     }
     
+    /**
+     * Test if stringPower method less than one returns null, of class CSD4464Assignment1HotCupAJava
+     */
+    public void testLessThanOneShouldReturnNull() {
+        System.out.println("stringPower");
+        String s = "";
+        int num = -1;
+        String expResult = null;
+        String result = CSD4464Assignment1HotCupAJava.stringPower(s, num);
+        assertEquals(expResult, result);
+    }
+    
+    /**
+     * Test if stringPower method with sample string and integer 1 returns sample string, of class CSD4464 Assignment1HotCupAJava
+     */
+    public void testStringAndOneShouldReturnString() {
+        System.out.println("stringPower");
+        String s = "This is a string.";
+        int num = 1;
+        String expResult = s;
+        String result = CSD4464Assignment1HotCupAJava.stringPower(s, num);
+        assertEquals(expResult, result);
+    }
 }
