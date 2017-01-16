@@ -36,18 +36,6 @@ public class CSD4464Assignment1HotCupAJavaTest {
     @After
     public void tearDown() {
     }
-
-    /**
-     * Test of main method, of class CSD4464Assignment1HotCupAJava.
-     */
-    @Test
-    public void testMain() {
-        System.out.println("main");
-        String[] args = null;
-        CSD4464Assignment1HotCupAJava.main(args);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
     
     /**
      * Test of stringPower method, of class CSD4464Assignment1HotCupAJava.
