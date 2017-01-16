@@ -87,4 +87,16 @@ public class CSD4464Assignment1HotCupAJavaTest {
         String result = CSD4464Assignment1HotCupAJava.stringPower(s, num);
         assertEquals(expResult, result);
     }
+    
+    /**
+     * Test if stringPower method with sample string and integer 2 returns sample string, of class CSD4464 Assignment1HotCupAJava
+     */
+    public void testStringAndTwoShouldReturnStringDoubled() {
+        System.out.println("stringPower");
+        String s = "bob";
+        int num = 2;
+        String expResult = s+s;
+        String result = CSD4464Assignment1HotCupAJava.stringPower(s, num);
+        assertEquals(expResult, result);
+    }
 }
