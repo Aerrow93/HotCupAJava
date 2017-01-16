@@ -48,21 +48,6 @@ public class CSD4464Assignment1HotCupAJavaTest {
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
-
-    /**
-     * Test of stringPower method, of class CSD4464Assignment1HotCupAJava.
-     */
-    @Test
-    public void testStringPower() {
-        System.out.println("stringPower");
-        String s = "";
-        int num = 0;
-        String expResult = "";
-        String result = CSD4464Assignment1HotCupAJava.stringPower(s, num);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
     
     /**
      * Test of stringPower method, of class CSD4464Assignment1HotCupAJava.
