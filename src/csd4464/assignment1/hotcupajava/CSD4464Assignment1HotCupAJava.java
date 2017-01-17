@@ -20,16 +20,18 @@ public class CSD4464Assignment1HotCupAJava {
     }
     
     public static String stringPower(String s, int num ) {
-        if (s == ""){
-           String str = "";  
-           return str;
-        }
-        else {
-            
-            String str = s;
-            return str;
-        }  
-                   
-       }
-    
+		if (num < 1) {
+			return null;
+		}
+		else {
+			if (s == ""){
+			   String str = "";  
+			   return str;
+			}
+			else {
+				String str = s;
+				return str;
+			}
+		}
+	}
 }
