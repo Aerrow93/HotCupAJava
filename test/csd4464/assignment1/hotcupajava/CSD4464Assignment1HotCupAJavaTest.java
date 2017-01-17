@@ -55,6 +55,7 @@ public class CSD4464Assignment1HotCupAJavaTest {
     /**
      * Test if stringPower method less than one returns null, of class CSD4464Assignment1HotCupAJava
      */
+    @Test
     public void testLessThanOneShouldReturnNull() {
         System.out.println("stringPower");
         String s = "";
@@ -67,6 +68,7 @@ public class CSD4464Assignment1HotCupAJavaTest {
     /**
      * Test if stringPower method with sample string and integer 1 returns sample string, of class CSD4464 Assignment1HotCupAJava
      */
+    @Test
     public void testStringAndOneShouldReturnString() {
         System.out.println("stringPower");
         String s = "This is a string.";
@@ -79,6 +81,7 @@ public class CSD4464Assignment1HotCupAJavaTest {
     /**
      * Test if stringPower method with sample string and integer 2 returns sample string, of class CSD4464 Assignment1HotCupAJava
      */
+    @Test
     public void testStringAndTwoShouldReturnStringDoubled() {
         System.out.println("stringPower");
         String s = "bob";
