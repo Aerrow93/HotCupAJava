@@ -23,6 +23,9 @@ public class CSD4464Assignment1HotCupAJava {
 		if (num < 1) {
 			return null;
 		}
+                else if (num != 0 && !s.isEmpty()) {
+                    return s;
+                }
 		else {
 			if (s == ""){
 			   String str = "";  
@@ -32,6 +35,7 @@ public class CSD4464Assignment1HotCupAJava {
 				String str = s;
 				return str;
 			}
+                
 		}
 	}
 }
