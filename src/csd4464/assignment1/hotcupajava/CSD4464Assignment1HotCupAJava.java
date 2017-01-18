@@ -16,26 +16,26 @@ public class CSD4464Assignment1HotCupAJava {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
+
     }
-    
-    public static String stringPower(String s, int num ) {
-		if (num < 1) {
-			return null;
-		}
-                else if (num != 0 && !s.isEmpty()) {
-                    return s;
-                }
-		else {
-			if (s == ""){
-			   String str = "";  
-			   return str;
-			}
-			else {
-				String str = s;
-				return str;
-			}
-                
-		}
-	}
+
+    public static String stringPower(String s, int num) {
+        if (num < 1) {
+            return null;
+        } else if (num != 0 && !s.isEmpty()) {
+            String str = "";
+            for (int i = 0; i < num; i++) {
+                str += s;
+            }
+            return str;
+        } else {
+            if (s == "") {
+                String str = "";
+                return str;
+            } else {
+                String str = s;
+                return str;
+            }
+        }
+    }
 }
